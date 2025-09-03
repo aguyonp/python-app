@@ -37,5 +37,5 @@ spec:
   type: LoadBalancer
   ports:
   - name: http
-    port: 8000       # Port exposé côté LoadBalancer
+    port: 80         # Port exposé côté LoadBalancer
     targetPort: 8000 # Port interne du conteneur
