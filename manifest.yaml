@@ -45,7 +45,7 @@ metadata:
   name: python-app-ingress
   namespace: python-app
   annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.entrypoints: web
 spec:
   rules:
     - host: localhost
